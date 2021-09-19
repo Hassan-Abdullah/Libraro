@@ -1,0 +1,17 @@
+{
+  "name": "Libraro",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss -i src/style.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
