@@ -62,27 +62,32 @@
     <!-------------Header----------------->
 
     <div class="flex justify-center bg-coolgray-50">
-      <div class="flex container max-w-7xl items-center pb-28 pt-9">
-        <div class="flex flex-row justify-between">
-          <div class="flex flex-col w-1/2 items-start justify-center pr-36">
-            <h1 class="text-6xl font-extrabold leading-none text-blue-700 font-inter tracking-tighter">
+      <div class="container mx-auto lg:px-8 sm:px-6 px-4">
+       
+        <div class="flex md:flex-row flex-col justify-between my-8 items-center xl:space-x-36 md:space-x-16">
+          
+          <div class="flex flex-col w-full sm:items-start justify-center items-center ">
+            <h1
+              class="w-full xl:text-6xl lg:text-5xl lg:leading-tight sm:text-3xl text-2xl xl:leading-tight font-extrabold leading-none text-blue-700 font-inter tracking-tighter md:text-left text-center">
               <span class="text-gray-900">Wir bringen Ihre</span> Bibliothek in die Cloud
             </h1>
-            <p class="text-inter text-gray-500 text-xl mt-5">
+            <p class="text-inter text-gray-500 2xl:text-xl xl:text-xl lg:text-base text-sm mt-5 md:text-left text-center">
               Librario ist Ihr starker und flexibler Software-Partner, der Sie bei Aufbau, Pflege und Weiterentwicklung
               einer Unternehmensbibliothek unterstützt.
             </p>
-            <div class="flex flex-row mt-10 space-x-6">
-              <button class="px-10 py-3 rounded-md shadow-btn bg-blue-700 font-medium text-white text-inter text-lg">
+            <div class="flex flex-row mt-10 space-x-6 md:mx-0 mx-auto">
+              <button
+                class="xl:px-10 px-4 py-3 rounded-md shadow-btn bg-blue-700 font-medium text-white text-inter lg:text-base xl:text-lg text-xs">
                 Erfahren Sie mehr
               </button>
-              <button class="px-10 py-3 rounded-md shadow-btn bg-white font-medium text-blue-700 text-inter text-lg">
+              <button
+                class="xl:px-10 px-4 py-3 rounded-md shadow-btn bg-white font-medium text-blue-700 text-inter lg:text-base xl:text-lg text-xs">
                 Video starten
               </button>
             </div>
           </div>
-          <div class="flex flex-col justify-center items-center">
-            <img src="/src/Illustration_v2 1.svg">
+          <div class="xl:max-w-xl lg:max-w-md md:max-w-sm flex-shrink-0 md:flex hidden items-center justify-center ">
+            <img class="w-full h-full" src="/src/Illustration_v2 1.svg">
           </div>
         </div>
       </div>
@@ -91,76 +96,89 @@
     <!-----------Ihre Vorteile--------------->
 
     <div class="flex justify-center">
-      <div class="flex container max-w-7xl justify-center items-center pb-28 pt-28">
-        <div class="flex flex-col items-center">
-          <h3 class="text-4xl font-bold text-gray-900 text-center tracking-tighter">
+      <div class="flex container justify-center items-center py-28">
+        <div class="flex flex-col items-center justify-center">
+          <h3 class="xl:text-4xl lg:text-3xl text-2xl font-bold text-gray-900 text-center tracking-tighter">
             Ihre Vorteile
           </h3>
-          <div class="flex flex-row mt-20 space-x-10">
-            <div
-              class="flex relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
+          <div
+            class="flex xl:flex-row w-full flex-col mx-10 mt-20 xl:space-x-10 xl:space-y-0 space-y-16 justify-center xl:items-start items-center">
+            <div class="flex flex-col md:flex-row md:space-x-16 md:space-y-0 space-y-16">
+
               <div
-                class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
-                <img src="/src/Cloud upload.svg">
+                class="flex flex-1 relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
+                <div
+                  class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
+                  <img src="/src/Cloud upload.svg">
+                </div>
+                <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
+                  Einfache Katalogisierung
+                </h6>
+                <p class="text-center text-gray-500 font-inter text-base">
+                  Dank Automatisierung können Sie Ihre Fachliteratur mit wenig Aufwand katalogisieren.
+                </p>
               </div>
-              <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
-                Einfache Katalogisierung
-              </h6>
-              <p class="text-center text-gray-500 font-inter text-base">
-                Dank Automatisierung können Sie Ihre Fachliteratur mit wenig Aufwand katalogisieren.
-              </p>
+
+              <div
+                class="flex flex-1 relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
+                <div
+                  class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
+                  <img src="/src/Document search.svg">
+                </div>
+                <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
+                  Effiziente Suche
+                </h6>
+                <p class="text-center text-gray-500 font-inter text-base">
+                  Die Google Volltext-Suche macht Fachliteratur für Ihre Mitarbeiter effizient zugänglich.
+                </p>
+              </div>
+
             </div>
 
-            <div
-              class="flex relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
-              <div
-                class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
-                <img src="/src/Document search.svg">
-              </div>
-              <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
-                Effiziente Suche
-              </h6>
-              <p class="text-center text-gray-500 font-inter text-base">
-                Die Google Volltext-Suche macht Fachliteratur für Ihre Mitarbeiter effizient zugänglich.
-              </p>
-            </div>
+            <div class="flex flex-col md:flex-row  md:space-x-16 md:space-y-0 space-y-16">
 
-            <div
-              class="flex relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
               <div
-                class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
-                <img src="/src/Template.svg">
+                class="flex flex-1 relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
+                <div
+                  class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
+                  <img src="/src/Template.svg">
+                </div>
+                <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
+                  Intuitive Benutzeroberfläche
+                </h6>
+                <p class="text-center text-gray-500 font-inter text-base">
+                  Auf der browserbasierten Benutzeroberfläche mit Single Sign-on finden sich Ihre Mitarbeiter intuitiv
+                  und
+                  einfach zurecht.
+                </p>
               </div>
-              <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
-                Intuitive Benutzeroberfläche
-              </h6>
-              <p class="text-center text-gray-500 font-inter text-base">
-                Auf der browserbasierten Benutzeroberfläche mit Single Sign-on finden sich Ihre Mitarbeiter intuitiv und
-                einfach zurecht.
-              </p>
-            </div>
 
-            <div
-              class="flex relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
               <div
-                class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
-                <img src="/src/Switch vertical.svg">
+                class="flex flex-1 relative flex-col w-72 px-7 pt-14 pb-8 bg-coolgray-50 rounded-xl justify-start items-center">
+                <div
+                  class="flex absolute -top-8 justify-center items-center w-12 h-12 bg-blue-700 rounded-md shadow-icon_shd z-10">
+                  <img src="/src/Switch vertical.svg">
+                </div>
+                <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
+                  Pay <br>as you go
+                </h6>
+                <p class="text-center text-gray-500 font-inter text-base">
+                  Sie bezahlen nur das, was Sie auch brauchen und können jederzeit flexibel skalieren.
+                </p>
               </div>
-              <h6 class="px-14 text-center font-medium text-gray-900 text-lg font-inter mb-5">
-                Pay <br>as you go
-              </h6>
-              <p class="text-center text-gray-500 font-inter text-base">
-                Sie bezahlen nur das, was Sie auch brauchen und können jederzeit flexibel skalieren.
-              </p>
+
             </div>
 
           </div>
 
-          <div class="mt-20 max-w-4xl">
-            <h3 class="text-4xl font-bold text-gray-900 text-center tracking-tighter">
+
+          <!--------Ein Partner mit System-------->
+
+          <div class="mt-20 max-w-4xl mx-10">
+            <h3 class="xl:text-4xl lg:text-3xl text-2xl font-bold text-gray-900 text-center tracking-tighter">
               Ein Partner mit System
             </h3>
-            <p class="text-lg font-inter text-gray-500 text-center mt-7">
+            <p class="xl:text-lg lg:text-base text-sm font-inter text-gray-500 text-center mt-7">
               Librario ist Ihr spezialisierter Partner für Unternehmensbibliotheken. Die Software zur
               Literaturverwaltung ermöglicht Ihren Mitarbeitern eine optimale Benutzererfahrung und Service-Leistung.
               <br><br>
@@ -178,11 +196,11 @@
     <!-----------FAQ--------------->
 
     <div class="flex justify-center bg-coolgray-50">
-      <div class="flex flex-col container max-w-3xl justify-center items-center py-20">
-        <h3 class="text-4xl text-gray-900 font-bold text-center font-inter mb-10">
+      <div class="flex flex-col container max-w-3xl mx-10 justify-center items-center py-20">
+        <h3 class="xl:text-4xl lg:text-3xl text-2xl text-gray-900 font-bold text-center font-inter xl;mb-10 mb-4">
           FAQ
         </h3>
-        <p class="text-lg text-gray-500 text-center font-inter">
+        <p class="xl:text-lg lg:text-base text-sm text-gray-500 text-center font-inter">
           Wir beantworten gerne Ihre Fragen
         </p>
         <div class="w-full border-t-2 border-gray-300 mt-6">
@@ -191,16 +209,17 @@
 
           <div class="felx flex-col space-y-3 py-6 ">
             <div class="flex flex-row justify-between items-start">
-              <h6 class="mr-8 text-lg font-medium text-black font-inter">
+              <h6 class="mr-8 xl:text-lg text-base font-medium text-black font-inter">
                 Wie unterstützt mich Librario?
               </h6>
-              <svg class="w-4 h-3 m-1 text-gray-400" viewBox="0 0 16 9" fill="None" xmlns="http://www.w3.org/2000/svg">
+              <svg class="lg:w-3 lg:h-2 w-4 h-3 m-1 flex-shrink-0 text-gray-400" viewBox="0 0 16 9" fill="None"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 8L8 0.999999L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
             </div>
 
-            <p class="mr-8 text-base font-medium text-gray-500 font-inter">
+            <p class="mr-8 xl:text-base text-sm font-medium text-gray-500 font-inter">
               Librario ist Ihr starker und flexibler Software-Partner, der Sie bei Aufbau, Pflege und Weiterentwicklung
               einer Unternehmensbibliothek unterstützt. Mit Librario können Sie verschiedene Literaturquellen in einer
               für alle Nutzer einfach und intuitiv zugänglichen Plattform zusammenführen und organisieren.
@@ -209,15 +228,16 @@
 
           <div class="felx flex-col space-y-3 py-6">
             <div class="flex flex-row justify-between items-start">
-              <h6 class="mr-8 text-lg font-medium text-black font-inter">
+              <h6 class="mr-8 xl:text-lg text-base font-medium text-black font-inter">
                 Welche Software muss auf meinem Computer installiert werden, um Librario nutzen zu können?
               </h6>
-              <svg class="w-4 h-3 m-1 text-gray-400" viewBox="0 0 16 9" fill="None" xmlns="http://www.w3.org/2000/svg">
+              <svg class="lg:w-3 lg:h-2 w-4 h-3 m-1 flex-shrink-0 text-gray-400" viewBox="0 0 16 9" fill="None"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 8L8 0.999999L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
             </div>
-            <p class="mr-8 text-base font-medium text-gray-500 font-inter">
+            <p class="mr-8 xl:text-base text-sm font-medium text-gray-500 font-inter">
               You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora
               vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.
             </p>
@@ -225,15 +245,16 @@
 
           <div class="felx flex-col space-y-3 py-6">
             <div class="flex flex-row justify-between items-start">
-              <h6 class="mr-8 text-lg font-medium text-black font-inter">
+              <h6 class="mr-8 xl:text-lg text-base font-medium text-black font-inter">
                 Kann ich Librario testen?
               </h6>
-              <svg class="w-4 h-3 m-1 text-gray-400" viewBox="0 0 16 9" fill="None" xmlns="http://www.w3.org/2000/svg">
+              <svg class="lg:w-3 lg:h-2 w-4 h-3 m-1 flex-shrink-0 text-gray-400" viewBox="0 0 16 9" fill="None"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 8L8 0.999999L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
             </div>
-            <p class="mr-8 text-base font-medium text-gray-500 font-inter">
+            <p class="mr-8 xl:text-base text-sm font-medium text-gray-500 font-inter">
               Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia
               excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.
             </p>
@@ -241,15 +262,16 @@
 
           <div class="felx flex-col space-y-3 py-6">
             <div class="flex flex-row justify-between items-start">
-              <h6 class="mr-8 text-lg font-medium text-black font-inter">
+              <h6 class="mr-8 xl:text-lg text-base font-medium text-black font-inter">
                 Wie viel kostet Librario?
               </h6>
-              <svg class="w-4 h-3 m-1 text-gray-400" viewBox="0 0 16 9" fill="None" xmlns="http://www.w3.org/2000/svg">
+              <svg class="lg:w-3 lg:h-2 w-4 h-3 m-1 flex-shrink-0 text-gray-400" viewBox="0 0 16 9" fill="None"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 8L8 0.999999L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
             </div>
-            <p class="mr-8 text-base font-medium text-gray-500 font-inter">
+            <p class="mr-8 xl:text-base text-sm font-medium text-gray-500 font-inter">
               Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate
               laboriosam fugiat.
             </p>
@@ -257,15 +279,16 @@
 
           <div class="felx flex-col space-y-3 py-6">
             <div class="flex flex-row justify-between items-start">
-              <h6 class="mr-8 text-lg font-medium text-black font-inter">
+              <h6 class="mr-8 xl:text-lg text-base font-medium text-black font-inter">
                 Wer hat Zugriff auf meine Daten?
               </h6>
-              <svg class="w-4 h-3 m-1 text-gray-400" viewBox="0 0 16 9" fill="None" xmlns="http://www.w3.org/2000/svg">
+              <svg class="lg:w-3 lg:h-2 w-4 h-3 m-1 flex-shrink-0 text-gray-400" viewBox="0 0 16 9" fill="None"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 8L8 0.999999L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
             </div>
-            <p class="mr-8 text-base font-medium text-gray-500 font-inter">
+            <p class="mr-8 xl:text-base text-sm font-medium text-gray-500 font-inter">
               Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas
               voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus
               facilis atque vero consequatur! Quisquam, debitis error.
@@ -274,15 +297,16 @@
 
           <div class="felx flex-col space-y-3 py-6">
             <div class="flex flex-row justify-between items-start">
-              <h6 class="mr-8 text-lg font-medium text-black font-inter">
+              <h6 class="mr-8 xl:text-lg text-base font-medium text-black font-inter">
                 Ich muss meine Literatur im Intranet speichern. Ist Librario dazu geeignet?
               </h6>
-              <svg class="w-4 h-3 m-1 text-gray-400" viewBox="0 0 16 9" fill="None" xmlns="http://www.w3.org/2000/svg">
+              <svg class="lg:w-3 lg:h-2 w-4 h-3 m-1 flex-shrink-0 text-gray-400" viewBox="0 0 16 9" fill="None"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 8L8 0.999999L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
             </div>
-            <p class="mr-8 text-base font-medium text-gray-500 font-inter">
+            <p class="mr-8 xl:text-base text-sm font-medium text-gray-500 font-inter">
               He couldn't see himself doing it. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
               perspiciatis officiis corrupti tenetur. Temporibus ut voluptatibus, perferendis sed unde rerum deserunt
               eius.
@@ -291,15 +315,16 @@
 
           <div class="felx flex-col space-y-3 py-6">
             <div class="flex flex-row justify-between items-start">
-              <h6 class="mr-8 text-lg font-medium text-black font-inter">
+              <h6 class="mr-8 xl:text-lg text-base font-medium text-black font-inter">
                 Kann Librario auch im unternehmenseigenen Rechenzentrum eingesetzt werden?
               </h6>
-              <svg class="w-4 h-3 m-1 text-gray-400" viewBox="0 0 16 9" fill="None" xmlns="http://www.w3.org/2000/svg">
+              <svg class="lg:w-3 lg:h-2 w-4 h-3 m-1 flex-shrink-0 text-gray-400" viewBox="0 0 16 9" fill="None"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 8L8 0.999999L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
             </div>
-            <p class="mr-8 text-base font-medium text-gray-500 font-inter">
+            <p class="mr-8 xl:text-base text-sm font-medium text-gray-500 font-inter">
               He couldn't see himself doing it. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
               perspiciatis officiis corrupti tenetur. Temporibus ut voluptatibus, perferendis sed unde rerum deserunt
               eius.
@@ -314,29 +339,31 @@
     <!--------------cloud library---------------->
 
     <div class="flex justify-center">
-      <div class="flex flex-col container max-w-7xl justify-center items-center py-20">
-        <div class="flex flex-row w-full justify-between items-start ">
+      <div class="flex flex-col container mx-10 max-w-7xl justify-center items-center py-20">
+        <div class="flex lg:flex-row flex-col w-full justify-between items-start ">
 
           <div class="flex flex-col">
-            <h4 class="text-4xl font-extrabold font-inter text-gray-900">
+            <h4 class="xl:text-4xl md:text-2xl text-xl font-extrabold font-inter text-gray-900">
               Sind Sie bereit für Ihre Bibliothek in der Cloud?
             </h4>
-            <h4 class="text-4xl font-extrabold font-inter text-blue-700">
+            <h4 class="xl:text-4xl md:text-2xl text-xl font-extrabold font-inter text-blue-700">
               Starten Sie noch heute.
             </h4>
           </div>
 
-          <div class="flex flex-row space-x-6 ">
-            <button class="px-6 py-3 rounded-md shadow-btn bg-blue-700 font-medium text-white text-inter text-lg">
+          <div class="flex flex-row space-x-6 lg:mt-0 mt-8">
+            <button
+              class="px-6 p-3 rounded-md shadow-btn bg-blue-700 font-medium text-white text-inter lg:text-lg text-sm">
               Kostenlos testen
             </button>
-            <button class="px-6 py-3 rounded-md shadow-btn bg-white font-medium text-blue-700 text-inter text-lg">
+            <button
+              class="px-6 p-3 rounded-md shadow-btn bg-white font-medium text-blue-700 text-inter lg:text-lg text-sm">
               Video starten
             </button>
           </div>
 
         </div>
-        <div class="">
+        <div class="mt-5">
           <img src="/src/image 1.png">
         </div>
       </div>
@@ -345,14 +372,16 @@
     <!--------------Footer---------------->
 
     <div class="flex justify-center bg-coolgray-900 font-inter">
-      <div class="flex flex-col container max-w-7xl justify-center items-center pt-20">
-        <div class="flex flex-row w-full mb-28">
-          <div class="flex w-1/3 mr-20 flex-col space-y-9">
-            <img class="w-20" src="/src/Vector.png">
-            <p class="text-base text-coolgray-50 font-semibold ">
-              Making the world a better place through constructing elegant hierarchies.
-            </p>
-            <div class="flex flex-row space-x-4">
+      <div class="flex flex-col container mx-10 max-w-7xl justify-center items-center pt-20">
+        <div class="flex lg:flex-row flex-col w-full mb-28">
+          <div class="flex lg:w-1/3 w-full mr-20 lg:flex-col flex-row space-y-9 lg:space-x-0 space-x-20 lg:items-start items-end">
+            <div class="space-y-9">
+              <img class="w-20" src="/src/Vector.png">
+              <p class="text-base text-coolgray-50 font-semibold ">
+                Making the world a better place through constructing elegant hierarchies.
+              </p>
+            </div>
+            <div class="flex flex-row w-1/2 space-x-4">
               <img src="/src/Social link.png">
               <img src="/src/Social link.png">
               <img src="/src/Social link.png">
@@ -360,7 +389,7 @@
               <img src="/src/Social link.png">
             </div>
           </div>
-          <div class="flex flex-col w-2/3">
+          <div class="flex flex-col lg:w-2/3 w-full lg:mt-0 mt-16">
             <div class="flex flex-row w-full justify-between">
 
               <div class="flex flex-col space-y-4 text-sm font-semibold">
@@ -438,11 +467,12 @@
           </div>
         </div>
         <div class="border-t border-gray-400 w-full"></div>
-        <p class="text-base text-gray-400 text-center py-8">
+        <p class="xl:text-base text-sm text-gray-400 text-center xl:py-8 py-4">
           © 2021 Librario, Inc. All rights reserved.
         </p>
       </div>
     </div>
 
   </body>
+
   </html>
